@@ -344,9 +344,7 @@ export default function App() {
                       )}
                       <span className="text-[10px] text-slate-400 font-semibold">Mobile Ticket</span>
                     </div>
-                                    </div>
-
-                <div className="space-y-3">
+                 <div className="space-y-3">
                   {eventData.tickets.map((ticket, idx) => (
                     <div key={ticket.id} className="bg-slate-950 p-3 rounded-lg border border-slate-800 space-y-2 relative group">
                       <div className="flex items-center justify-between">
